@@ -59,7 +59,7 @@ img{
 .menuHamburguesa{
     height: 6vh;
     width: 5vw;
-    
+    box-sizing: border-box;
 }
 
 .texto-breadcrumbs{
@@ -203,51 +203,51 @@ h3{
 /*------------------------------BOTONES CSS---------------*/
 .botonJugar{
     
-    padding: 5%; /*espacio alrededor texto*/
+    padding: 1%; /*espacio alrededor texto*/
     background-color: #159900; /*color botón*/
     color: black; /*color texto*/
-    font-size: 2vw;
+    font-size: 3vh;
     text-align: center;
     text-decoration: none; /*decoración texto*/
-    border-radius: 2vh; /*bordes redondos*/
+    border-radius: 4px; /*bordes redondos*/
     height: 4vh;
     width: 6vw;
 }
 
 .botonReservar{
-    padding: 2%; /*espacio alrededor texto*/
+    padding: 1%; /*espacio alrededor texto*/
     background-color: #159900; /*color botón*/
     color: black; /*color texto*/
     font-size: 4vh;
     font-weight: bold;
     text-decoration: none; /*decoración texto*/
-    border-radius: 10px; /*bordes redondos*/
+    border-radius: 4px; /*bordes redondos*/
     height: auto;
 }
 
 .botonComprar{
     
-    padding: 5%; /*espacio alrededor texto*/
+    padding: 1%; /*espacio alrededor texto*/
     background-color: #2a9a05; /*color botón*/
     color: black; /*color texto*/
-    font-size: 2vw;
+    font-size: 3vh;
     text-align: center;
     text-decoration: none; /*decoración texto*/
-    border-radius: 2vh; /*bordes redondos*/
-    height: 4vh;
+    border-radius: 4px; /*bordes redondos*/
+    
     width: 6vw;
 }
 
 .botonCarrito{
     
-    padding: 1vw; /*espacio alrededor texto*/
+    padding: 1%; /*espacio alrededor texto*/
     background-color: #8d9f00; /*color botón*/
     color: black; /*color texto*/
-    font-size: 2vw;
+    font-size: 2.8vh;
     text-align: center;
     text-decoration: none; /*decoración texto*/
-    border-radius: 2vh; /*bordes redondos*/
-    height: 4vh;
+    border-radius: 4px; /*bordes redondos*/
+    ;
     width: 6vw;
     overflow: hidden;
 }
@@ -360,7 +360,7 @@ footer{
     color: black; /*color texto*/
     font-size: 4vh;
     text-decoration: none; /*decoración texto*/
-    border-radius: 10px; /*bordes redondos*/
+   
 }
 
 /*--------------SECCION HISTORIA CSS--------------------*/

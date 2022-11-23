@@ -28,14 +28,44 @@
 }
 
 .activeline1__bars-menu{
-    transform: rotate(45deg) translate(-1px, 2px); 
+    transform: rotate(45deg) translate(-1px, 2px);
 }
 
 .activeline2__bars-menu{
     opacity: 0;
-    
 }
 
 .activeline3__bars-menu{
     transform: rotate(-45deg) translate(-1px, 2px);
+}
+
+.activarMenuDesplegable{
+    visibility:visible !important;
+    transform: translate(-100%, 0px) scale(1.2);
+}
+
+.menuDesplegable{
+    min-width: 15%;
+    transition: all 500ms;
+    visibility: hidden;
+    border: black solid 2px;
+    background-color: black;
+    position: absolute; /*la posicion absoluta me permite que el contenedor se
+    saltee el flujo de la pagina y pueda posicionarlo donde quiera*/
+    top: 25%;
+    left: 100%;
+}
+
+.itemMenuDesplegable{
+    background-color: #202291;
+    color: white;
+    cursor: pointer;
+    margin: 1% 0% 1% 0%;
+    
+}
+
+.itemMenuDesplegable:hover{
+    background-color: #0004ff;
+    border: rgb(0, 0, 0) 2px solid;
+    display: hidden;
 }

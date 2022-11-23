@@ -204,7 +204,7 @@ h3{
 .botonJugar{
     
     padding: 1%; /*espacio alrededor texto*/
-    background-color: #159900; /*color botón*/
+    background-color: #22ff00; /*color botón*/
     color: black; /*color texto*/
     font-size: 3vh;
     text-align: center;
@@ -228,7 +228,7 @@ h3{
 .botonComprar{
     
     padding: 1%; /*espacio alrededor texto*/
-    background-color: #2a9a05; /*color botón*/
+    background-color: #40ff00; /*color botón*/
     color: black; /*color texto*/
     font-size: 3vh;
     text-align: center;

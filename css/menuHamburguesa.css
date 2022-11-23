@@ -47,25 +47,51 @@
 .menuDesplegable{
     min-width: 15%;
     transition: all 500ms;
-    visibility: hidden;
+    /*visibility: hidden;*/
     border: black solid 2px;
     background-color: black;
+    color: white;
     position: absolute; /*la posicion absoluta me permite que el contenedor se
     saltee el flujo de la pagina y pueda posicionarlo donde quiera*/
     top: 25%;
     left: 100%;
-}
-
-.itemMenuDesplegable{
-    background-color: #202291;
-    color: white;
-    cursor: pointer;
     margin: 1% 0% 1% 0%;
-    
+    background-color: #202291;
+    cursor: pointer;
+}
+/*
+.ActivarItemMenuDesplegable1{
+    transition-delay:  100ms;
+    visibility: visible;
 }
 
+.ActivarItemMenuDesplegable2{
+    transition-delay:  200ms;
+    visibility: visible;
+}
+.ActivarItemMenuDesplegable3{
+    transition-delay:  300ms;
+    visibility: visible;
+}
+.ActivarItemMenuDesplegable4{
+    transition-delay:  400ms;
+    visibility: visible;
+}
+.ActivarItemMenuDesplegable5{
+    transition-delay:  500ms;
+    visibility: visible;
+}
+.ActivarItemMenuDesplegable6{
+    transition-delay:  600ms;
+    visibility: visible;
+}
+.cajita{
+    visibility: hidden;
+}
+*/
 .itemMenuDesplegable:hover{
     background-color: #0004ff;
     border: rgb(0, 0, 0) 2px solid;
-    display: hidden;
+    
 }
+

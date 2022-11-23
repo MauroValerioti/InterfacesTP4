@@ -61,11 +61,35 @@
     color: white;
     cursor: pointer;
     margin: 1% 0% 1% 0%;
-    
+    opacity: 0;
 }
 
 .itemMenuDesplegable:hover{
     background-color: #0004ff;
     border: rgb(0, 0, 0) 2px solid;
-    display: hidden;
+}
+
+.ActivarItemMenuDesplegable1{
+    transition: all 2s;
+    opacity: 1;
+}
+.ActivarItemMenuDesplegable2{
+    transition: all 3s;
+    opacity: 1;
+}
+.ActivarItemMenuDesplegable3{
+    transition: all 4s;
+    opacity: 1;
+}
+.ActivarItemMenuDesplegable4{
+    transition: all 5s;
+    opacity: 1;
+}
+.ActivarItemMenuDesplegable5{
+    transition: all 6s;
+    opacity: 1;
+}
+.ActivarItemMenuDesplegable6{
+    transition: all 7s;
+    opacity: 1;
 }

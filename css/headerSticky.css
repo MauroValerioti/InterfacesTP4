@@ -1,0 +1,24 @@
+header{
+    background-color: #050231;
+    display: block;
+    position: sticky;
+    top: 0;
+    
+}
+.sub-header{
+    padding-top: 2vh;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+
+.header-page{
+    text-align: center;
+    margin-bottom: -4px;
+}
+
+.header-actions{
+    text-align: center;
+}

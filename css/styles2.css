@@ -5,19 +5,6 @@ body{
 }
 
 /*-----------------------------HEADER CSS--------------------->*/
-header{
-    background-color: #050231;
-    display: block;
-    height: 25h;
-}
-.sub-header{
-    padding-top: 2vh;
-    display: flex;
-    align-items:center;
-    justify-content: space-between;
-    padding-left: 2vw;
-    padding-right: 2vw;
-}
 
 img{
     height: 100%;

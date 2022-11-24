@@ -8,7 +8,6 @@
     width: 30px;
     height: 30px;
     position: absolute;
-    top: 10%;
     left: 90%;
     /*desplazamiento del contenedor y tamanio de las barras*/
     transform: translate(-50%, -50%) scale(3);
@@ -52,7 +51,7 @@
     background-color: black;
     position: absolute; /*la posicion absoluta me permite que el contenedor se
     saltee el flujo de la pagina y pueda posicionarlo donde quiera*/
-    top: 25%;
+    top: 120%;
     left: 100%;
 }
 

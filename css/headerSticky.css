@@ -2,7 +2,7 @@ header{
     background-color: #050231;
     display: block;
     position: sticky;
-    top: 0;
+    top: 0;;
     
 }
 .sub-header{
@@ -21,4 +21,9 @@ header{
 
 .header-actions{
     text-align: center;
+}
+
+.activarHeaderStickyHeader{
+    transition: all 1s;
+    transform: scale(1, 0.6);
 }

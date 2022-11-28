@@ -1,27 +1,62 @@
 .fondoAnimado{
+
     background-image: url("../Imagenes/escenario\ poppy3.jpg");
     background-repeat: no-repeat;
-    background-size:contain;
-    width: 100%;
-    min-height: 150vh;
+    background-size: cover;
+    max-height: 100vh;
+    overflow: hidden;
 }
 
-.muneco_poppy {
+
+.imagen_muneco{
     position: relative;
+    top: 150%;
+    left: 36%;
     visibility: hidden;
     scale: 0.2;
-    animation-name: ahiViene;
-    animation-duration: 6s;
+}
+
+.animarPoppy{
+     animation-name: ahiViene;
+     animation-delay: 1s;
+     animation-duration: 0.6s;
+     position: relative;
+    
 }
 
 @keyframes ahiViene {
     0%{visibility: visible; transform: scale(1);}
-    20%{transform: scale(2);}
-    40%{transform: scale(3);}
-    60%{transform: scale(4);}
-    80%{transform: scale(5);}
+    20%{transform: scale(2); top: 45%;}
+    40%{transform: scale(3); top: 40%;}
+    60%{transform: scale(4); top: 35%;}
+    80%{transform: scale(5); top: 3%;}
     100%{transform: scale(6);}
 }
 
-img .imagen_muneco{
+
+.tituloAnimado1{
+    color: white;
+    position: absolute;
+    font-size: 4em;
+    top: 320%;
+    left: 70%;
+    visibility: visible;
+}
+
+.tituloAnimado2{
+    font-size: 3em;
+    color: white;
+    position: absolute;
+    top: 300%;
+    left: 5%;
+    visibility: visible;
+}
+
+.tituloAnimado1:hover{
+    color: red;
+}
+
+.tituloAnimado2:hover{
+    
+    visibility: hidden;
 }

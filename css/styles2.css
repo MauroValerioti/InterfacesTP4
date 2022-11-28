@@ -1,14 +1,15 @@
-
+html{
+    max-width: 1520px;
+    overflow-x: hidden;
+}
 /*-----------------------------BODY CSS--------------------->*/
 body{
     background-color:#BC4DFE;
 }
 
 /*-----------------------------HEADER CSS--------------------->*/
-
-img{
-    height: 100%;
-    width: 100%;
+.resolucion-imagen-tarjeta{
+    height: 20vh;    
 }
 
 .logo{
@@ -421,7 +422,8 @@ footer{
 
 }
 
-.imagen1-lanzamiento{
+div .imagen1-lanzamiento img{
+    width: 1520px;
     margin-bottom: 4%;
 }
 

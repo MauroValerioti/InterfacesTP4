@@ -1,0 +1,27 @@
+.fondoAnimado{
+    background-image: url("../Imagenes/escenario\ poppy3.jpg");
+    background-repeat: no-repeat;
+    background-size:contain;
+    width: 100%;
+    min-height: 150vh;
+}
+
+.muneco_poppy {
+    position: relative;
+    visibility: hidden;
+    scale: 0.2;
+    animation-name: ahiViene;
+    animation-duration: 6s;
+}
+
+@keyframes ahiViene {
+    0%{visibility: visible; transform: scale(1);}
+    20%{transform: scale(2);}
+    40%{transform: scale(3);}
+    60%{transform: scale(4);}
+    80%{transform: scale(5);}
+    100%{transform: scale(6);}
+}
+
+img .imagen_muneco{
+}

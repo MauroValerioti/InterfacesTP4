@@ -35,3 +35,13 @@
     80%{ border: solid 2px black; opacity: 95%;}
     100%{transform: scale(1.5); border: solid 2px red; opacity: 90%;}
 }
+
+.adelantosTitulo{
+    font-size: 5vh;
+    font-weight: bolder;
+    color: white;
+    text-decoration: underline;
+    display: flex;
+    justify-content: center;
+
+}

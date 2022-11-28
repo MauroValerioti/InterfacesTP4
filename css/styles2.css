@@ -46,7 +46,7 @@ img{
 .menuHamburguesa{
     height: 6vh;
     width: 5vw;
-    box-sizing: border-box;
+   box-sizing: border-box;
 }
 
 .texto-breadcrumbs{
@@ -417,6 +417,7 @@ footer{
 .fondo-imagen-lanzamiento{
     background-image:url("/Imagenes/PuppyPlaytime6.jpg");
     background-repeat: no-repeat;
+    background-size: cover;
 
 }
 

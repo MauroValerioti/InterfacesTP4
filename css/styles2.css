@@ -1,6 +1,7 @@
 html{
     max-width: 1520px;
     overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 /*-----------------------------BODY CSS--------------------->*/
 body{
@@ -505,11 +506,16 @@ div .compra p{
 }
 
 .jugadores{
-    justify-content: justify;
     display: flex;
     direction: row;
 }
 
+ul li{
+    display: block;
+    text-align: start;
+    list-style: none ;
+    padding-left: 10px;
+}
 
 
 .playtime3 h1{

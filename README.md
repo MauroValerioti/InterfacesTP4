@@ -1,4 +1,4 @@
-# InterfacesTPE3.github.io
+# InterfacesTPE4.github.io
 
 Repositorio para la 4ta entrega del TPE de interfaces 2022.
 

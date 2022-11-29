@@ -483,40 +483,7 @@ div .compra p{
     padding-left: 50%;
 }
 
-.personaje{
-    position: relative;
-    background-color: #1a0354;
-    height:400px;
-    width: 350px;
-    margin: 1%;
-    display: block;
-    justify-content: center;
-    align-items:center; 
 
-}
-
-.img-personaje{
-    position: relative;
-    left: 50%;
-    margin: 10%;
-    transform: translate(-50%,0);
-}
-
-.jugadores h2,h3,li{
-    color:white;
-}
-
-.jugadores{
-    display: flex;
-    direction: row;
-}
-
-ul li{
-    display: block;
-    text-align: start;
-    list-style: none ;
-    padding-left: 10px;
-}
 
 
 .playtime3 h1{
@@ -529,15 +496,6 @@ ul li{
     color: white;
 }
 
-
-.personajes h1{
-    background-color:#1a0354;
-    font-size: 200%;
-    display: flex;
-    justify-content: left;
-    align-items: center;
-    color: white;
-}
 
 @media (max-width: 600px){
     

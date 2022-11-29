@@ -427,25 +427,6 @@ div .imagen1-lanzamiento img{
     margin-bottom: 4%;
 }
 
-.playtime3{
-    background-image: url("/Imagenes/PuppyPlaytime9.jpg");
-    background-size: cover;
-}
-
-.playtime3 p{
-    margin-top: 2%;
-    margin-bottom: 2%;
-    margin-left:10%;
-    margin-right: 10%;
-    font-size: 200%;
-    font-weight: bold;
-    display: flex;
-    justify-content: justify;
-    align-items: justify;
-    color: white;
-}
-
-
 
 .compradores{
     background-image: url("/Imagenes/PuppyPlaytime6.jpg");
@@ -482,22 +463,6 @@ div .compra p{
     padding-left: 50%;
 }
 
-
-
-
-.playtime3 h1{
-    text-decoration: underline;
-    font-size: 350%;
-    font-weight: bold;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-}
-
-
-<<<<<<< HEAD
-=======
 .personajes h1{
     background-color:#1a0354;
     font-size: 200%;
@@ -517,7 +482,6 @@ div .compra p{
     align-items: center;
 }
 
->>>>>>> 8a2def017db30d25f4b403ab62febd6fa1185e75
 @media (max-width: 600px){
     
     .seccionCategoria{

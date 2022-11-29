@@ -1,0 +1,40 @@
+
+.historiaTexto{
+}
+
+.historiaTexto p{
+    margin: 1%;
+    font-size: 200%;
+    font-weight: bold;
+    display: flex;
+    justify-content: justify;
+    align-items: justify;
+    color: white;
+}
+
+.historiaTexto h1{
+    text-decoration: underline;
+    font-size: 350%;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.cont-historia{
+    display: flex;
+}
+
+.imagen-historia{
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: auto;
+    width: 50%;
+    background-image: url('../Imagenes/imagen-historia-poppy.jpg');
+}
+
+.historiaTexto{
+    
+    width: 50%;
+}
